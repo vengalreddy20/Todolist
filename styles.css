@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: #111;
+}
+header h1{
+    font-size: 3rem;
+    color:#fff;
+    text-align: center;
+    margin-top: 6rem;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.input-box .input{
+    width: 400px;
+    height: 50px;
+    font-size: 1.2rem;
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+    margin: 2rem;
+    border: 1px solid;
+
+}
+.input-box .addButton{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    background-color: lime;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.addButton:hover{
+    opacity: 0.7;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.item{
+    padding: 0.6rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 3px solid #fff;
+
+}
+.item-input{
+    color: #fff;
+    border: none;
+    background: none;
+    outline: none;
+    width: 350px;
+    font-size: 1.4rem;
+
+}
+.editButton{
+    font-size: 1.4rem;
+    margin: 0 0.8rem;
+    color: lime;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.removeButton{
+    font-size: 1.4rem;
+    margin: 0 0.8rem;
+    color:red;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+
+}
+
