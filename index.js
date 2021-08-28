@@ -18,7 +18,7 @@ class item{
        itemBox.classList.add('item');
 
        let editButton=document.createElement('button');
-       editButton.innerHTML="EDIT";
+       
        editButton.classList.add('editButton');
        
        let removeButton=document.createElement('button');
